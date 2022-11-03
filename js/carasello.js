@@ -3,7 +3,7 @@ let boton = document.getElementById("jugar")
 let botonSalir = document.getElementById("salir")
 let contador = 0
 let total = 0
-let continuar = true
+let nuevo = true
 
 function carasello() {
 
@@ -27,11 +27,11 @@ function carasello() {
             respuesta.innerHTML = `<p>Has perdido, la cantidad de dinero que llevas en este momento es ${total}</p>`
         }
 
-        continuar = false
+        nuevo = false
 
     }
 
-    while (continuar != false)
+    while (nuevo != false)
 
 }
 
